@@ -18,13 +18,10 @@ darkmode: false
 github_username:  jae-ryeong
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -36,9 +33,28 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+    안녕하세요! Java, Spring Framework, Spring Boot를 주로 사용하는 웹/앱 서비스 백엔드 개발자 김재령입니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+다양한 프로젝트를 진행하며 객체지향적인 설계와 유지보수성을 고려하여 개발을 하기위해 노력하고 있습니다.
+각 프로젝트에 항상 새로운 기술을 학습하고 적용하는 것을 즐기며, 문제 해결을 위한 끊임없는 도전을 이어가고 있으며,
+사용자의 입장에서 생각하며 클라이언트 친화적인 개발을 진행하고자 노력하고 있습니다.
+
+또한 백엔드 개발 뿐만 아니라 React를 활용한 프론트엔드 경험도 보유하고 있기에 다른 팀과도 원활한 협업이 가능할것이라고 생각합니다.
+
+매일의 노력이 큰 변화를 만든다고 생각합니다. 
+다소 느리더라도 꾸준히 성장하는 그런 개발자가 되겠습니다.
+감사합니다
+  
+  
+    <strong>기술 스택<strong>
+      - 프레임워크 - <mark>Spring Boot 2/3</mark>
+      - 언어 - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
+      - 테스트 - <mark>Junit 4/5</mark>
+      - 미들웨어 - <mark>RabbitMQ</mark>
+      - 웹서버 - <mark>Nginx</mark>
+      - DevOps - <mark>Jenkins</mark>, <mark>SonarQube</mark>, <mark>Grafana</mark>
+      - DB(Hibernate) - <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>MyBatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
+      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Hexagonal Architecture</mark>, <mark>GitHub</mark>
 
 content:
   - title: Projects # Title for the section
