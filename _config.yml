@@ -82,7 +82,7 @@ content:
           - 이미지를 클라우드 서버에 업로드 후 URL을 DB에 저장하여 효율적인 데이터 관리
           - 커스텀 예외를 정의하고, 글로벌 예외 처리 로직을 구현하여 예외를 한 눈에 파악할 수 있도록 구현
           - 기술 스택
-            - <mark>Spring Boot, React, Docker, Docker-Compose, JPA, MariaDB, Redis, GCP</mark>
+            - <mark>Spring Boot</mark>, <mark>React</mark>, <mark>TypeScript</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>, <mark>JPA</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>, <mark>GCP</mark>
 
       - title: 약국 검색
         link: https://github.com/jae-ryeong/kakaopharmacy
@@ -90,14 +90,13 @@ content:
         caption: 1인 풀스택 개발
         description: | # this will include new lines to allow paragraphs
           - 프론트엔드부터 백엔드까지 전 과정을 직접 설계 및 구현
-          - Docker를 활용하여 Postgresql
+          - kakao OpenAPI를 활용하여 약국 검색 서비스를 구현
+          - Redis 캐싱을 활용해 약국 데이터를 빠르게 조회하여 성능 최적화
+          - haversine formula 공식을 적용하여 사용자에게 가장 가까운 약국 추천
+          - 약국의 로드뷰 바로가기 기능 제공
+          - 기술 스택
+            - <mark>Spring Boot</mark>, <mark>Thymeleaf</mark>, <mark>Docker</mark>, <mark>JPA</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
 
-      - title: 게시판
-        link: https://github.com/jae-ryeong/JBoard
-        sub_title: 2023.8 ~ 2023.10
-        caption: 1인 풀스택 개발
-        description: | # this will include new lines to allow paragraphs
-          - 프론트엔드부터 백엔드까지 전 과정을 직접 설계 및 구현
           
 
 # Footer
