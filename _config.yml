@@ -70,8 +70,8 @@ content:
   - title: Portfolio # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Online Store
+      #- layout: left
+      - title: Online Store
         link: https://github.com/jae-ryeong/online-store
         sub_title: 2023.12 ~ 진행중
         caption: 1인 풀스택 개발
@@ -81,7 +81,9 @@ content:
           - 포트원(구 아임포트) 외부 API를 연동하여 결제 시스템을 구현, 결제 승인 및 검증 프로세스를 구현
           - 이미지를 클라우드 서버에 업로드 후 URL을 DB에 저장하여 효율적인 데이터 관리
           - 커스텀 예외를 정의하고, 글로벌 예외 처리 로직을 구현하여 예외를 한 눈에 파악할 수 있도록 구현
-    
+          - 기술 스택
+            - <mark>Spring Boot, React, Docker, Docker-Compose, JPA, MariaDB, Redis, GCP</mark>
+
       - title: 약국 검색
         link: https://github.com/jae-ryeong/kakaopharmacy
         sub_title: 2023.12 ~ 2024.01
