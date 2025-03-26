@@ -9,7 +9,7 @@ version: 2
 name: 김재령
 title: Backend Developer
 email: wofud0321@naver.com
-website: www.github.com/jae-ryeong
+github: www.github.com/jae-ryeong
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,33 +48,24 @@ about_content: | # this will include new lines to allow paragraphs
   
     <strong>기술 스택<strong>
       - 프레임워크 - <mark>Spring Boot 2/3</mark>
-      - 언어 - <mark>Java 8/11/21</mark>, <mark>Kotlin</mark>
-      - 테스트 - <mark>Junit 4/5</mark>
-      - 미들웨어 - <mark>RabbitMQ</mark>
-      - 웹서버 - <mark>Nginx</mark>
-      - DevOps - <mark>Jenkins</mark>, <mark>SonarQube</mark>, <mark>Grafana</mark>
-      - DB(Hibernate) - <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>MyBatis</mark>, <mark>JPA</mark>, <mark>QueryDSL</mark>
-      - 기타 - <mark>OpenAPI Specification3</mark>, <mark>Hexagonal Architecture</mark>, <mark>GitHub</mark>
+      - 언어 - <mark>Java</mark>, <mark>Kotlin</mark>
+      - 테스트 - <mark>Junit</mark>
+      - DB(Hibernate) - <mark>MySQL</mark>, <mark>JPA</mark>, <mark>Redis</mark>
+      - 기타 - <mark>GCP</mark>, <mark>Docker</mark>, <mark>GitHub</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Company # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+      - layout: left
+        title: 넥스젠아이티
+        sub_title: 스마트/RPA
+        caption: 2024.04 ~ 2025.01
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          <strong>주요 업무</strong>
+          - 공공기관 스마트폰 어플 관리 및 유지보수
+          - 모바일용 웹 페이지 유지보수
+          - RPA 개발 및 유지보수
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
