@@ -91,11 +91,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 프론트엔드부터 백엔드까지 전 과정을 직접 설계 및 구현
           - kakao OpenAPI를 활용하여 약국 검색 서비스를 구현
-          - Redis 캐싱을 활용해 약국 데이터를 빠르게 조회하여 성능 최적화
+          - 한번 검색된 약국 데이터는 Redis에 저장함으로서 중복 검색시 속도 개선
+            - LCP(Largest Contentful Paint) 기준 76% (약 4.17배) 성능 향상          
           - haversine formula 공식을 적용하여 사용자에게 가장 가까운 약국 추천
           - 약국의 로드뷰 바로가기 기능 제공
           - 기술 스택
-            - <mark>Spring Boot</mark>, <mark>Thymeleaf</mark>, <mark>Docker</mark>, <mark>JPA</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
+            - <mark>Spring Boot</mark>, <mark>Thymeleaf</mark>, <mark>Docker</mark>, <mark>JPA</mark>, <mark>Redis</mark>
 
           
 
