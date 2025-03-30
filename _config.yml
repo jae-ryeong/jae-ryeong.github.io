@@ -51,7 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
       - 언어 - <mark>Java</mark>, <mark>Kotlin</mark>
       - 테스트 - <mark>Junit</mark>
       - DB(Hibernate) - <mark>MySQL</mark>, <mark>JPA</mark>, <mark>Redis</mark>
-      - 기타 - <mark>GCP</mark>, <mark>Docker</mark>, <mark>GitHub</mark>
+      - 기타 - <mark>GCP</mark>, <mark>MariaDB</mark>, <mark>Docker</mark>, <mark>GitHub</mark>
 
 content:
   - title: Company # Title for the section
