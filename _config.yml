@@ -85,7 +85,7 @@ content:
             - <mark>Spring Boot</mark>, <mark>React</mark>, <mark>TypeScript</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>, <mark>JPA</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>, <mark>GCP</mark>
 
       - title: 약국 검색
-        link: https://github.com/jae-ryeong/kakaopharmacy
+        link: https://github.com/jae-ryeong/search-pharmacy
         sub_title: 2023.12 ~ 2024.01
         caption: 1인 풀스택 개발
         description: | # this will include new lines to allow paragraphs
