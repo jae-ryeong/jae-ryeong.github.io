@@ -74,7 +74,7 @@ content:
       - title: Movie Recommendation
         link: https://github.com/jae-ryeong/movie-recommend
         sub_title: 2025.04 ~ 진행중
-        caption: 1인 풀스택 개발
+        caption: 1인 백엔드 개발
         description: | # this will include new lines to allow paragraphs
           - Spring Batch를 활용하여 대량의 데이터 처리 및 배치 작업을 구현
           - Kafka를 활용해 사용자 행동 이벤트를 비동기로 수집, MySQL에 저장하여 추천 시스템 학습 기반 구축
@@ -97,7 +97,7 @@ content:
           - 기술 스택
             - <mark>Spring Boot</mark>, <mark>React</mark>, <mark>TypeScript</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>, <mark>JPA</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>, <mark>GCP</mark>
 
-      - title: 약국 검색
+      - title: Pharmacy Search
         link: https://github.com/jae-ryeong/search-pharmacy
         sub_title: 2023.12 ~ 2024.01
         caption: 1인 풀스택 개발
