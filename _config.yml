@@ -76,9 +76,10 @@ content:
         sub_title: 2025.04 ~ 진행중
         caption: 1인 백엔드 개발
         description: | # this will include new lines to allow paragraphs
-          - Spring Batch를 활용하여 대량의 데이터 처리 및 배치 작업을 구현
+          - Spring Batch를 활용하여 사용자 추천 결과를 병렬 처리 및 페이징 방식으로 일괄 계산, Elasticsearch에 일괄 색인하여 대량 데이터 처리 성능 개선
           - Kafka를 활용해 사용자 행동 이벤트를 비동기로 수집, MySQL에 저장하여 추천 시스템 학습 기반 구축
-          - 사용자 행동 데이터를 기반으로 간단한 협업 필터링 추천 알고리즘을 구현
+          - 사용자 평점 데이터를 기반으로 협업 필터링 알고리즘을 구현, 콘텐츠 기반 추천과 결합한 하이브리드 추천 시스템 개발
+          - 비동기 처리, 메모리 캐싱, Bulk API를 통해 추천 인덱싱 속도 최적화 및 중복 DB 접근 최소화
           - 기술 스택
             - <mark>Spring Boot</mark>, <mark>Docker</mark>, <mark>Docker-Compose</mark>, <mark>JPA</mark>, <mark>MySQL</mark>, <mark>Kafka</mark>, <mark>ElasticSearch</mark>
 
