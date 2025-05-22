@@ -45,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
       - 언어 - <mark>Java</mark>, <mark>Kotlin</mark>
       - 테스트 - <mark>Junit</mark>
       - DB(Hibernate) - <mark>MySQL</mark>, <mark>JPA</mark>, <mark>Redis</mark>
-      - 기타 - <mark>GCP</mark>, <mark>MariaDB</mark>, <mark>Docker</mark>, <mark>GitHub</mark>
+      - 기타 - <mark>GCP</mark>, <mark>MariaDB</mark>, <mark>Docker</mark>, <mark>GitHub</mark>, <mark>AWS</mark>
 
 content:
   - title: Company # Title for the section
@@ -84,6 +84,7 @@ content:
         caption: 1인 풀스택 개발
         description: | # this will include new lines to allow paragraphs
           - 프론트엔드부터 백엔드까지 전 과정을 직접 설계 및 구현
+          - AWS 환경에서 Docker를 활용하여 프론트엔드와 백엔드 서비스를 직접 배포
           - MariaDB와 Redis를 활용하여 관계형 데이터와 캐시 데이터를 분리하여 최적화된 데이터베이스 아키텍처를 구축.
           - 멀티 스레드 환경에서  Redis 기반 Redisson 분산 락을 활용해 동시성 이슈 해결 및 TTL 설정으로 데드락 방지를 구현
           - 포트원(구 아임포트) 외부 API를 연동하여 결제 시스템을 구현, 결제 승인 및 검증 프로세스를 구현
